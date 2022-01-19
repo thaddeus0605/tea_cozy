@@ -16,7 +16,7 @@ header {
     border-bottom: 1px solid seashell;
     height: 69px;
     width: 100%;
-    display:inline-flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
     
@@ -33,4 +33,69 @@ header {
     color: seashell;
     padding: 10px;
     
+}
+
+.mission {
+    height: 700px;
+    width: auto;
+    margin: 5px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-statement {
+    background-color: black;
+    width: 100%;
+    height: 17%;
+}
+
+.mission-statement h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tea-of-the-month {
+    padding: 5px;
+}
+.card-section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 5px;
+}
+
+.card img{ 
+    max-width: 300px;
+    max-height: 200px;;
+}
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    margin-bottom: 15px;
+}
+.cards-locations {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.card-location {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer{
+    text-align: left;
+    font-size: 20px;
 }
